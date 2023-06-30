@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="calculator" src="public/favicon.ico" style="height: 30px; width: 30px;"> 
+    Calculator App with react.js 
+    <img alt="calculator" src="public/favicon.ico" style="height: 30px; width: 30px;"> 
+</h1>
+<p align="center">
+  <a href="#about-the-project">About The Project</a> |
+  <a href="#preview">Preview</a> | 
+  <a href="#started">Getting Started</a> |
+  <a href="#author">Author</a> |
+  <a href="#license">License</a>
+</p>
+</br>
+</br>
+</br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 id="about-the-project" align="center">  About The Project </h2></br>
+Web Application for calculator.
 
-## Available Scripts
+This Web Application allows you to:
+- view the calculator
+- carry out the basic calculations
+    
+This web application was created by:
+- [React.js](https://react.dev/) 
 
-In the project directory, you can run:
 
-### `npm start`
+***You can see the first version [here](https://calculator-tomas.netlify.app/)!***
+</br>
+</br>
+</br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2 id="preview" align="center"> Preview </h2>
+</br>
+<img alt="home" src="src/image/home.png"> 
+</br>
+</br>
+<img alt="home1" src="src/image/home1.png">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</br>
+</br>
+</br>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<h2 id="started" align="center"> Getting Started </h2>
+</br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Clone Repository
+$ git clone https://github.com/robyx080/calcolatrice.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Go to server folder
+$ cd calcolatrice
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Run Aplication
+$ npm start
 
-### `npm run eject`
+# Access localhost
+http://localhost:3000
+```
+</br>
+</br>
+</br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h2 id="author" align="center"> 💻 Author </h2>
+</br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<div style="text-align: center;">
+  <img style="border-radius: 50% !important;" src="https://avatars.githubusercontent.com/u/49684586?s=400&u=cb37af12266f9ba9f670861da258f4b1c1a363b7&v=4" width="200px;" alt="photo author"/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  <sub><b>Roberto Tomasello</b></sub>
+  
+  [![Linkedin Badge](https://img.shields.io/badge/-Roberto-1692B4?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/roberto-tomasello-46427919b)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  [![Gmail Badge](https://img.shields.io/badge/-robyx080@gmail.com-4682B4?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:robyx080@gmail.com)
+</div>
+</br>
+</br>
+</br>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div style="text-align: center;">
+  <h2 id="license"> 📝 License </h2>
+  
+  This project is under the [MIT](./LICENSE) license.
+</div>

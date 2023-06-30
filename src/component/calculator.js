@@ -119,7 +119,7 @@ function Calculator() {
             <button onClick={() => updateCalc('2')}>2</button>
             <button onClick={() => updateCalc('3')}>3</button>
 			<button onClick={() => updateCalc('+')} className='operator'>+</button>
-            <button onClick={back}><img src={deleteImg} style={{maxHeight:"13px"}}></img></button>
+            <button onClick={back}><img src={deleteImg} alt='del' style={{maxHeight:"13px"}}></img></button>
             <button onClick={() => updateCalc('0')}>0</button>
             <button onClick={() => updateCalc('.')}>.</button>
 			<button onClick={calculate} className='operator'>=</button>
