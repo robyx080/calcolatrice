@@ -22,9 +22,9 @@
 
 .display{
   padding: 28px;
-  display: flex; /* Aggiunto */
-  justify-content: space-between; /* Aggiunto */
-  align-items: center; /* Aggiunto per centrare verticalmente i contenuti */ 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;  
   font-size: 24px;
   font-weight: 300;
 }
@@ -37,14 +37,14 @@
 .keys{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Aggiunto per centrare i button */
+  justify-content: center; 
   background-color: #292d36;
   border-radius: 16px;
 }
 
 .keys button {
-	flex: 0 0 calc(25% - 20px); /* Calcola la larghezza di ogni button con margine */
-  max-width: calc(25% - 20px); /* Imposta la larghezza massima di ogni button */
+	flex: 0 0 calc(25% - 20px); 
+  max-width: calc(25% - 20px); 
   margin: 10px;
   background-color: #3a414f;
   color: #ffffff;
